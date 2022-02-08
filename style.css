@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+}
+
+.main {
+    background: url(tree.file);
+}
+
+.footer {
+    display: flex;
+}
