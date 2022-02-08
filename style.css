@@ -21,6 +21,8 @@ body {
 }
 
 .main {
+    overflow: hidden;
+    align-items: center;
     width: 90vw;
     height: 175vh;
     border: 1px solid black;
@@ -37,6 +39,14 @@ body {
     font-family: 'Nunito',sans-serif;
     color: rgb(92, 66, 66);
 
+}
+
+.tree {
+    margin-left:100px;
+    height: 15%;
+    width: 15%;
+    background-size: cover;
+    background-image: url(tree.jpg);
 }
 
 .footer {
