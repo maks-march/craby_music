@@ -10,6 +10,9 @@ body {
     margin: 0;
     padding: 0;
     background-color: antiquewhite;
+    font-family: 'Nunito',sans-serif;
+    color: rgb(92, 66, 66);
+    font-weight: 900;
 }
 .header {
     width: 90vw;
@@ -30,23 +33,42 @@ body {
     border-top: 0;
     border-bottom: 0;
     box-shadow: 2px 2px 15px black;
+    background-size: cover;
+    background-image: url(tree.jpg);
+}
+
+.home {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    width: 10%;
+    padding-top: 10px;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+
+.home:active {
+    background-color:rgb(59, 54, 119);
+}
+
+.info{
+    font-size: 30px;
+    text-align: center;
 }
 
 .beginning {
     text-align: center;
     font-size: 30px;
     font-weight: bold;
-    font-family: 'Nunito',sans-serif;
-    color: rgb(92, 66, 66);
-
 }
 
 .tree {
-    margin-left:100px;
-    height: 15%;
-    width: 15%;
+    margin: 2px;
+    height: 70px;
+    width: 4%;
     background-size: cover;
     background-image: url(tree.jpg);
+    margin-right: 10px;
 }
 
 .footer {
