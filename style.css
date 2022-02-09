@@ -38,7 +38,6 @@ body {
 }
 
 .home {
-    color: white;
     font-size: 30px;
     text-align: center;
     width: 10%;
@@ -69,6 +68,11 @@ body {
     background-size: cover;
     background-image: url(tree.jpg);
     margin-right: 10px;
+}
+
+.hyperlink {
+    text-decoration: none;
+    color: white;
 }
 
 .footer {
